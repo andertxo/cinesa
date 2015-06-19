@@ -1,0 +1,89 @@
+<!doctype html>
+
+<html lang="es">
+
+<head>
+
+<meta charset="utf-8">
+
+<title> Entrada cine</title>
+
+<meta name="description" content="Pagina  cine">
+
+<meta name="author" content="Ander">
+
+<link rel="stylesheet" type="text/css" href="css/cine.css">
+
+<!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+</head>
+
+<body>
+	<div id="home">
+
+		<section>
+
+			<div id="contenido">
+
+				<form name="formulario" method="post">
+
+					<span id="titulo">!Calcula tu entrada!</span>
+					
+					<div id="cuadrodias">
+						<label for="listaDias">Dia:</label>
+						<select id="listaDias" onchange="calcularEntrada();">
+							<option value="lunes">Lunes</option>
+							<option value="martes" selected="selected">Martes</option>
+							<option value="miercoles">Miércoles</option>
+							<option value="jueves">Jueves</option>
+							<option value="viernes">Viernes</option>
+							<option value="sabado">Sábado</option>
+							<option value="domingo">Domingo</option>
+						</select>
+					</div>
+					<!-- fin cuadrodias -->
+
+					<div id="cuadroEdad">
+						<label for="edad">Edad:</label>
+						<input type="text" id="edad" onchange="calcularEntrada();" maxlength="3" value="16" required title="Debes escribir la edad" placeholder="0-99"/>
+					</div>
+					<!-- fin cuadroedad -->
+
+					<span id="etiquetaPrecio">PRECIO</span>
+
+					<span id="precio">2€</span>				
+
+				</form>
+
+			</div>
+			<!-- fin contenido -->
+
+		</section>
+		<foorter>
+		<a href="http://www.formacion.ipartek.com/campus/mod/resource/view.php?id=2798" title="cine">Ejercicio CINE</a>
+		</foorter>
+		<!-- fin section -->
+  
+	</div>	<!-- home -->
+
+<script src="js/cines.js"></script>
+
+</body>
+<!-- body -->
+
+</html>
+<!-- html -->
+
+
+
+
+
+
+
+
+
+
+
+

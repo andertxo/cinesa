@@ -1,0 +1,76 @@
+/* 
+	version: 1.0
+	autor: Ander
+	fecha: 20150618
+	
+*/
+
+body{
+	font-family: arial;
+}
+
+label{
+	font-weight: bold;
+}
+
+
+#contenido{
+	width: 300px;
+	height: 400px;
+	background-image:url('../img/entrada_cine.jpg');
+	border:1px solid black;
+}
+
+#titulo{
+	color:#00ff40;
+	display:block;
+	text-align:center;
+	width: 300px;
+	font-size:xx-large;
+	font-weight: bolder;
+}
+
+#cuadroEdad{
+	position:absolute;
+	left: 165px;
+  	top: 60px;
+  	border:none;
+ }
+
+#cuadrodias{
+	position:absolute;
+	left: 15px;
+	top: 60px;	
+}
+
+#listaDias{
+	color: white;
+	background-color: black;
+  	border:none;	
+}
+
+#edad{
+	width: 50px;
+	color: white;
+	background-color: black;
+}
+
+#etiquetaPrecio{
+	position: absolute;
+	top: 350px;
+	margin-left: 10px;
+	color: white;
+	font-size: x-large;
+	font-weight: 200;
+}
+
+#precio{
+	position: absolute;
+	top: 290px;
+  	left: 135px;
+  	color: white;
+	font-size: 100px;
+	font-weight: 200;
+	width: 165px;
+	text-align: right;
+}
