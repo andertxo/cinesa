@@ -4,73 +4,98 @@
 	fecha: 20150618
 	
 */
+/* 
+   RESET    
+   Resetear todos los estilos para cualquier navegador
+*/
+@import url("reset.css");
 
 body{
 	font-family: arial;
-}
-
-label{
-	font-weight: bold;
+	font-size: 16px;
 }
 
 
-#contenido{
+#container{
+	width: 900px;
+	background-color: white;
+	min-height: 700px;
+	margin: 0 auto;
+	
+}
+#calcular_entrada{
+	position: relative;
 	width: 300px;
 	height: 400px;
 	background-image:url('../img/entrada_cine.jpg');
-	border:1px solid black;
+	
 }
 
-#titulo{
-	color:#00ff40;
-	display:block;
-	text-align:center;
-	width: 300px;
-	font-size:xx-large;
-	font-weight: bolder;
+#calcular_entrada header{
+	height: 50px;
+	width: 100%;
+	padding-top: 20px;	
 }
-
-#cuadroEdad{
-	position:absolute;
-	left: 165px;
-  	top: 60px;
-  	border:none;
- }
-
-#cuadrodias{
-	position:absolute;
-	left: 15px;
-	top: 60px;	
+	#calcular_entrada header h1{
+		font-family: arial;
+		font-size: 25px;
+		color:#73b7c4;
+		text-align: center;
+	}
+#calcular_entrada #selectores{
+	height: 100px;
+	width: 100%;
+	
 }
+	#calcular_entrada #selectores #cuadroEdad{
+		position:absolute;
+		left: 165px;
+  		top: 60px;
+  		border:none;
+	 }
 
-#listaDias{
-	color: white;
-	background-color: black;
-  	border:none;	
-}
+	#calcular_entrada #selectores #cuadrodias{
+		position:absolute;
+		left: 15px;
+		top: 60px;	
+	}
 
-#edad{
-	width: 50px;
-	color: white;
-	background-color: black;
-}
+	#calcular_entrada #selectores #listaDias{
+		color: white;
+		background-color: black;
+  		border:none;	
+	}
 
-#etiquetaPrecio{
+	#calcular_entrada #selectores #edad{
+		width: 50px;
+		color: white;
+		background-color: black;
+	}
+#calcular_entrada footer{
 	position: absolute;
-	top: 350px;
-	margin-left: 10px;
-	color: white;
-	font-size: x-large;
-	font-weight: 200;
+	bottom:0;
+	color:#FFF;
+	font-family: arial;
+	font-size: 1.4em;/*25px;*/
+	padding: 5%;
+	width: 90%;
 }
+	#calcular_entrada footer etiquetaPrecio{
+		font-size: 2.5em;
+		position: absolute;
+		right: 20px;
+		bottom: 10px;	
+	}
+	#calcular_entrada footer precio{
+		font-size: 2.5em;
+		position: absolute;
+		right: 20px;
+		bottom: 10px;
+		
+	}
 
-#precio{
-	position: absolute;
-	top: 290px;
-  	left: 135px;
-  	color: white;
-	font-size: 100px;
-	font-weight: 200;
-	width: 165px;
-	text-align: right;
-}
+
+
+
+
+
